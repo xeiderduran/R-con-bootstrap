@@ -1,0 +1,40 @@
+body{
+  background-color: rgba(185, 77, 54, 0.87);
+  border: solid 1px;
+}
+*{
+  box-sizing: border-box;
+}
+#blog2{
+  margin-top: 40px;
+}
+.btn-group{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+}
+#buscar{
+  margin-top: 20px;
+}
+.icon-social{
+  width: 20%;
+}
+.logo{
+  width: 70%;
+}
+#red-social{
+  margin-top: 120px;
+}
+#lista{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+    border: solid 1px;
+}
+@media only screen and (max-width:480px) {
+.btn-group{
+  text-align: center;
+display: flex;
+flex-direction: column;
+}
+}
